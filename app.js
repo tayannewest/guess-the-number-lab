@@ -1,7 +1,7 @@
 const game = {
   title: 'Guess the Number!',
 
-  biggestNum: 5,
+  biggestNum: 100,
 
   smallestNum: 1,
 
@@ -19,7 +19,7 @@ const game = {
         this.render()
       } while 
         (this.prevGuesses[this.prevGuesses.length - 1] !== this.secretNum)
-      console.log(this.prevGuesses)
+      // console.log(this.prevGuesses)
 
     },
 
